@@ -1,12 +1,8 @@
 package ru.netology;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.RequiredArgsConstructor;
+import lombok.Value;
 
-@Data
-@RequiredArgsConstructor
-@AllArgsConstructor
+@Value
 public class RequestData {
         private String login;
         private String password;
